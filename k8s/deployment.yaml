@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: adnsoa/kube-news-elite:v1
+          image: adnsoa/kube-news-elite:{{TAG}}
           ports:
           - containerPort: 8080
           env:
